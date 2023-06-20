@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "bf69e534-8111-468a-b112-e0e152f5b5ab",
+		"name": "CRUD-All",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16075219"
+	},
+	"item": [
+		{
+			"name": "Employee-Rest-CRUD",
+			"item": [
+				{
+					"name": "Home",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{env}}/api/v1/employee/home",
+							"host": [
+								"{{env}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"home"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Employee By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{env}}/api/v1/employee/1",
+							"host": [
+								"{{env}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Employee",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{env}}/api/v1/employee/list",
+							"host": [
+								"{{env}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Employee",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"employeeName\": \"Mr.Bat\",\r\n    \"employeeAddress\": \"Gujarat\",\r\n    \"employeeDepartment\": \"SDE-2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{env}}/api/v1/employee/add",
+							"host": [
+								"{{env}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Employee By Id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{env}}/api/v1/employee/delete/3",
+							"host": [
+								"{{env}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"delete",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Employee",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"employeeName\": \"Mr.Bat\",\r\n    \"employeeAddress\": \"Delhi\",\r\n    \"employeeDepartment\": \"SDE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{env}}/api/v1/employee/update/3",
+							"host": [
+								"{{env}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"update",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
