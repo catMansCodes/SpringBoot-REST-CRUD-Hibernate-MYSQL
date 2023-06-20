@@ -8,7 +8,6 @@ Spring Boot REST CRUD operation using Hibernate, MYSQL, and Custom exception
 
 <h1>Created APIs</h1>
 
-.............................................
 
 <h2>1. Home API : </h2> {{env}}/api/v1/employee/home <br><br>
 
