@@ -3,7 +3,7 @@ Spring Boot REST CRUD operation using Hibernate, MYSQL, and Custom exception
 
 Created APIs
 
-1. Home API : {{env}}/api/v1/employee/home
+<h2>1. Home API : </h2> {{env}}/api/v1/employee/home
 
 ![image](https://github.com/catMansCodes/SpringBoot-REST-CRUD-Hibernate-MYSQL/assets/42735814/59e7da79-9ead-4043-a07f-f1e199e4ce04)
 
